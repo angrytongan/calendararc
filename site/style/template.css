@@ -1,0 +1,246 @@
+text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ring {
+    fill: #fff;
+}
+.ring text {
+    fill: #000;
+}
+
+/*
+ * Quarters.
+ */
+.quarter_1 {
+}
+.quarter_2 {
+}
+.quarter_3 {
+}
+.quarter_4 {
+}
+
+/*
+ * Months.
+ */
+.january {
+}
+.february {
+}
+.march {
+}
+.april {
+}
+.may {
+}
+.june {
+}
+.july {
+}
+.august {
+}
+.september {
+}
+.october {
+}
+.november {
+}
+.december {
+}
+
+/*
+ * Weeks.
+ */
+.week_1 {
+}
+.week_2 {
+}
+.week_3 {
+}
+.week_4 {
+}
+.week_5 {
+}
+.week_6 {
+}
+.week_7 {
+}
+.week_8 {
+}
+.week_9 {
+}
+.week_10 {
+}
+.week_11 {
+}
+.week_12 {
+}
+.week_13 {
+}
+.week_14 {
+}
+.week_15 {
+}
+.week_16 {
+}
+.week_17 {
+}
+.week_18 {
+}
+.week_19 {
+}
+.week_20 {
+}
+.week_21 {
+}
+.week_22 {
+}
+.week_23 {
+}
+.week_24 {
+}
+.week_25 {
+}
+.week_26 {
+}
+.week_27 {
+}
+.week_28 {
+}
+.week_29 {
+}
+.week_30 {
+}
+.week_31 {
+}
+.week_32 {
+}
+.week_33 {
+}
+.week_34 {
+}
+.week_35 {
+}
+.week_36 {
+}
+.week_37 {
+}
+.week_38 {
+}
+.week_39 {
+}
+.week_40 {
+}
+.week_41 {
+}
+.week_42 {
+}
+.week_43 {
+}
+.week_44 {
+}
+.week_45 {
+}
+.week_46 {
+}
+.week_47 {
+}
+.week_48 {
+}
+.week_49 {
+}
+.week_50 {
+}
+.week_51 {
+}
+.week_52 {
+}
+.week_53 {
+}
+
+/*
+ * Days.
+ */
+.day_1 {
+}
+.day_2 {
+}
+.day_3 {
+}
+.day_4 {
+}
+.day_5 {
+}
+.day_6 {
+}
+.day_7 {
+}
+.day_8 {
+}
+.day_9 {
+}
+.day_10 {
+}
+.day_11 {
+}
+.day_12 {
+}
+.day_13 {
+}
+.day_14 {
+}
+.day_15 {
+}
+.day_16 {
+}
+.day_17 {
+}
+.day_18 {
+}
+.day_19 {
+}
+.day_20 {
+}
+.day_21 {
+}
+.day_22 {
+}
+.day_23 {
+}
+.day_24 {
+}
+.day_25 {
+}
+.day_26 {
+}
+.day_27 {
+}
+.day_28 {
+}
+.day_29 {
+}
+.day_30 {
+}
+.day_31 {
+}
+
+/*
+ * Day of week.
+ */
+.su {
+}
+.mo {
+}
+.tu {
+}
+.we {
+}
+.th {
+}
+.fr {
+}
+.sa {
+}

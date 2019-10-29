@@ -1,0 +1,295 @@
+svg {
+    background: #fff;
+}
+.segment {
+    stroke: #ccc;
+    stroke-width: 1px;
+}
+text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ring {
+    fill: #fff;
+}
+.ring text {
+    fill: #000;
+}
+
+/*
+ * Years
+ */
+.year { }
+.year + text {
+    font-size: 2em;
+    fill: #fff;
+}
+
+.year_first     { fill: #5cb3ff; }
+.year_second    { fill: #2b65ec; }
+
+/*
+ * Quarters.
+ */
+.quarter_1 { fill: #aa3939; }
+.quarter_2 { fill: #aa9739; }
+.quarter_3 { fill: #2e882e; }
+.quarter_4 { fill: #403075; }
+
+.quarter_1 + text { font-size: 1.5em; fill: #fff; }
+.quarter_2 + text { font-size: 1.5em; fill: #fff; }
+.quarter_3 + text { font-size: 1.5em; fill: #fff; }
+.quarter_4 + text { font-size: 1.5em; fill: #fff; }
+
+/*
+ * Months.
+ */
+.january    { fill: #aa6439; }
+.february   { fill: #aa7a39; }
+.march      { fill: #aa8939; }
+.april      { fill: #aa9f39; }
+.may        { fill: #a1a838; }
+.june       { fill: #80a036; }
+.july       { fill: #256e5d; }
+.august     { fill: #29506d; }
+.september  { fill: #303c74; }
+.october    { fill: #522c72; }
+.november   { fill: #6f256f; }
+.december   { fill: #90305a; }
+
+.january + text     { font-size: 1.5em; fill: #fff; }
+.february + text    { font-size: 1.5em; fill: #fff; }
+.march + text       { font-size: 1.5em; fill: #fff; }
+.april + text       { font-size: 1.5em; fill: #fff; }
+.may + text         { font-size: 1.5em; fill: #fff; }
+.june + text        { font-size: 1.5em; fill: #fff; }
+.july + text        { font-size: 1.5em; fill: #fff; }
+.august + text      { font-size: 1.5em; fill: #fff; }
+.september + text   { font-size: 1.5em; fill: #fff; }
+.october + text     { font-size: 1.5em; fill: #fff; }
+.november + text    { font-size: 1.5em; fill: #fff; }
+.december + text    { font-size: 1.5em; fill: #fff; }
+
+/*
+ * Weeks.
+ */
+.week_1 { fill: #aa4b39; }
+.week_2 { fill: #aa5839; }
+.week_3 { fill: #aa6239; }
+.week_4 { fill: #aa6a39; }
+.week_5 { fill: #aa7139; }
+.week_6 { fill: #aa7739; }
+.week_7 { fill: #aa7d39; }
+.week_8 { fill: #aa8239; }
+.week_9 { fill: #aa8639; }
+.week_10 { fill: #aa8b39; }
+.week_11 { fill: #aa8f39; }
+.week_12 { fill: #aa9339; }
+.week_13 { fill: #aa9739; } /* 91 deg */
+
+.week_14 { fill: #aa9b39; }
+.week_15 { fill: #aaa039; }
+.week_16 { fill: #aaa439; }
+.week_17 { fill: #aaa939; }
+.week_18 { fill: #9fa838; }
+.week_19 { fill: #94a537; }
+.week_20 { fill: #8aa236; }
+.week_21 { fill: #80a036; }
+.week_22 { fill: #759d35; }
+.week_23 { fill: #699a34; }
+.week_24 { fill: #599532; }
+.week_25 { fill: #448f30; }
+.week_26 { fill: #2c8437; } /* 182 deg */
+
+.week_27 { fill: #297a4a; }
+.week_28 { fill: #277455; }
+.week_29 { fill: #256e5d; }
+.week_30 { fill: #226666; }
+.week_31 { fill: #26596a; }
+.week_32 { fill: #29516d; }
+.week_33 { fill: #2b4a6f; }
+.week_34 { fill: #2d4471; }
+.week_35 { fill: #303e73; }
+.week_36 { fill: #323776; }
+.week_37 { fill: #383376; }
+.week_38 { fill: #3d3175; }
+.week_39 { fill: #433075; }
+.week_40 { fill: #482e74; } /* 280 deg */
+
+.week_41 { fill: #4d2d73; }
+.week_42 { fill: #522b72; }
+.week_43 { fill: #592a71; }
+.week_44 { fill: #622870; }
+.week_45 { fill: #6f256f; }
+.week_46 { fill: #7d2a69; }
+.week_47 { fill: #872d62; }
+.week_48 { fill: #8f305b; }
+.week_49 { fill: #963254; }
+.week_50 { fill: #9d354b; }
+.week_51 { fill: #a63840; }
+.week_52 { fill: #aa3939; }
+.week_53 { fill: #aa3939; }
+
+.week_1 + text { fill: #fff; }
+.week_2 + text { fill: #fff; }
+.week_3 + text { fill: #fff; }
+.week_4 + text { fill: #fff; }
+.week_5 + text { fill: #fff; }
+.week_6 + text { fill: #fff; }
+.week_7 + text { fill: #fff; }
+.week_8 + text { fill: #fff; }
+.week_9 + text { fill: #fff; }
+.week_10 + text { fill: #fff; }
+.week_11 + text { fill: #fff; }
+.week_12 + text { fill: #fff; }
+.week_13 + text { fill: #fff; }
+.week_14 + text { fill: #fff; }
+.week_15 + text { fill: #fff; }
+.week_16 + text { fill: #fff; }
+.week_17 + text { fill: #fff; }
+.week_18 + text { fill: #fff; }
+.week_19 + text { fill: #fff; }
+.week_20 + text { fill: #fff; }
+.week_21 + text { fill: #fff; }
+.week_22 + text { fill: #fff; }
+.week_23 + text { fill: #fff; }
+.week_24 + text { fill: #fff; }
+.week_25 + text { fill: #fff; }
+.week_26 + text { fill: #fff; }
+.week_27 + text { fill: #fff; }
+.week_28 + text { fill: #fff; }
+.week_29 + text { fill: #fff; }
+.week_30 + text { fill: #fff; }
+.week_31 + text { fill: #fff; }
+.week_32 + text { fill: #fff; }
+.week_33 + text { fill: #fff; }
+.week_34 + text { fill: #fff; }
+.week_35 + text { fill: #fff; }
+.week_36 + text { fill: #fff; }
+.week_37 + text { fill: #fff; }
+.week_38 + text { fill: #fff; }
+.week_39 + text { fill: #fff; }
+.week_40 + text { fill: #fff; }
+.week_41 + text { fill: #fff; }
+.week_42 + text { fill: #fff; }
+.week_43 + text { fill: #fff; }
+.week_44 + text { fill: #fff; }
+.week_45 + text { fill: #fff; }
+.week_46 + text { fill: #fff; }
+.week_47 + text { fill: #fff; }
+.week_48 + text { fill: #fff; }
+.week_49 + text { fill: #fff; }
+.week_50 + text { fill: #fff; }
+.week_51 + text { fill: #fff; }
+.week_52 + text { fill: #fff; }
+.week_53 + text { fill: #fff; }
+
+/*
+ * Days.
+ */
+.day_1 { }
+.day_2 { }
+.day_3 { }
+.day_4 { }
+.day_5 { }
+.day_6 { }
+.day_7 { }
+.day_8 { }
+.day_9 { }
+.day_10 { }
+.day_11 { }
+.day_12 { }
+.day_13 { }
+.day_14 { }
+.day_15 { }
+.day_16 { }
+.day_17 { }
+.day_18 { }
+.day_19 { }
+.day_20 { }
+.day_21 { }
+.day_22 { }
+.day_23 { }
+.day_24 { }
+.day_25 { }
+.day_26 { }
+.day_27 { }
+.day_28 { }
+.day_29 { }
+.day_30 { }
+.day_31 { }
+
+.day_1 + text { fill: #999; }
+.day_2 + text { fill: #999; }
+.day_3 + text { fill: #999; }
+.day_4 + text { fill: #999; }
+.day_5 + text { fill: #999; }
+.day_6 + text { fill: #999; }
+.day_7 + text { fill: #999; }
+.day_8 + text { fill: #999; }
+.day_9 + text { fill: #999; }
+.day_10 + text { fill: #999; }
+.day_11 + text { fill: #999; }
+.day_12 + text { fill: #999; }
+.day_13 + text { fill: #999; }
+.day_14 + text { fill: #999; }
+.day_15 + text { fill: #999; }
+.day_16 + text { fill: #999; }
+.day_17 + text { fill: #999; }
+.day_18 + text { fill: #999; }
+.day_19 + text { fill: #999; }
+.day_20 + text { fill: #999; }
+.day_21 + text { fill: #999; }
+.day_22 + text { fill: #999; }
+.day_23 + text { fill: #999; }
+.day_24 + text { fill: #999; }
+.day_25 + text { fill: #999; }
+.day_26 + text { fill: #999; }
+.day_27 + text { fill: #999; }
+.day_28 + text { fill: #999; }
+.day_29 + text { fill: #999; }
+.day_30 + text { fill: #999; }
+.day_31 + text { fill: #999; }
+
+/*
+ * Day of week.
+ */
+.su { fill: #999; }
+.mo { fill: #fff; }
+.tu { fill: #fff; }
+.we { fill: #fff; }
+.th { fill: #fff; }
+.fr { fill: #fff; }
+.sa { fill: #999; }
+
+.su + text { fill: #fff; }
+.mo + text { fill: #999; }
+.tu + text { fill: #999; }
+.we + text { fill: #999; }
+.th + text { fill: #999; }
+.fr + text { fill: #999; }
+.sa + text { fill: #fff; }
+
+.legend {
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #ccc;
+}
+.legend + text {
+    fill: #999;
+    stroke: none;
+    font-size: 1em;
+}
+
+.chain + text {
+    opacity: 0.10;
+}
+
+.copyright {
+    stroke: none;
+}
+.copyright + text {
+    opacity: 0.5;
+}

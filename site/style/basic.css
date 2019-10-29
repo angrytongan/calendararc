@@ -1,0 +1,11 @@
+.segment {
+    stroke: #000;
+    stroke-width: 2px;
+    fill: #fff;
+}
+text {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
