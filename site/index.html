@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calendar Arc</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="mithril.min.js" type="text/javascript"></script>
+
+        <style>
+        body {
+            width: 700px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+        }
+        td {
+            width: 50%;
+        }
+
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const go = document.getElementById('go');
+                const today = new Date();
+
+                const startDate = [
+                    { label: '1st of this year', value: today.getFullYear() + "0101", },
+                    { label: 'Today', value: '' },
+                    { label: '1st of next year', value: (today.getFullYear() + 1) + "0101", },
+                ];
+                let selectedStartDate = startDate[0].value;
+
+                m.render(go, [
+                    m('ul', [
+                        m('li', [
+                            m('span', 'Start date '),
+                            m('select', {
+                                onchange: (e) => {
+                                    selectedStartDate = e.currentTarget.value;
+                                },
+                            }, startDate.map((o) => m('option', {
+                                selected: o.value == selectedStartDate,
+                                value: o.value,
+                            }, o.label))),
+                        ]),
+                    ]),
+
+                    m('button', {
+                        onclick: () => {
+                            const parms = 'style=colour-wheel&' +
+                                `start=${selectedStartDate}`;
+                            window.location.assign(`c.html?${parms}`);
+                        },
+                    }, 'Generate')
+                ]);
+            });
+        </script>
+    </head>
+
+    <body>
+        <h1>Calendar Arc</h1>
+        <p>The Calendar Arc merges the chain productivity method with a
+        multi-use calendar to give you a highly functional map of your
+        year.</p>
+
+        <div><img src="ca-whole.png" alt="Calendar Arc whole" /></div>
+
+        <p>A calendar, but laid out in a circle rather than rectangle, and uses
+        the principle of the
+        <a href="https://www.google.com/search?q=chain+productivity+method&oq=chain+productivity+method">chain productivity method</a> to help track progress in your goals.
+        <a href="https://www.kickstarter.com/projects/1798348595/calendar-arc-an-elegant-one-page-productivity-cale">More about the calendar here.</a></p>
+
+        <h2>Generate your own</h2>
+        <p>You can generate your own version of the calendar arc and print
+        it out. You may have to scroll your window after generation to see
+        the calendar, as it's rendered in high resolution.</p>
+
+        <p>The generator has only been tested on Google Chrome; YMMV on
+        other browsers.</p>
+
+        <div id="go"></div>
+
+        <h2>Some pics</h2>
+        <img src="ca-using.jpeg" title="printuse" alt="In print" />
+        <img src="ca-detail.png" title="Close up" alt="Close up" />
+        <img src="ca-prototypes.jpeg" title="Prototypes" alt="Prototypes" />
+
+        <h2>Rationale</h2>
+        <ul>
+            <li>I needed to track some goals but see an entire year at a time.</li>
+            <li>I wanted to learn <a href="https://d3js.org/">d3.js</a>.</li>
+        </ul>
+
+        <h2>Source</h2>
+        <p>Calendar Arc is open source and available on <a href="https://github.com/angrytongan/calendararc">GitHub</a>.</p>
+
+    </body>
+
+</html>
