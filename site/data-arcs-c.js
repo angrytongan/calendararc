@@ -84,7 +84,7 @@ var generateCopyright = function(range, innerRadius, outerRadius) {
 
     segments.push({
         size: 1,
-        text: 'Copyright (c) 2015 Dean Fogarty - http://www.calendararc.com'
+        text: 'Copyright (c) 2015 Dean Fogarty - http://df.id.au/calendararc/'
     });
 
     return {
